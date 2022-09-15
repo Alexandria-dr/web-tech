@@ -1,21 +1,23 @@
-p{
-    color: purple;
+
+body{
+    background-color: #FEF5E7;
 }
 header{
     display: flex;
     justify-content: space-between;
     padding: 0 10%;
+    background-color: #EDBB99;
+
 }
 header h1{
 text-align: end;
 width: 40%;
+
 }
 .menu{
-/* background-color: rgb(50, 205, 76); */
 display: flex;
 align-items: center;
 width: 60%;
-
 }
 .menu>ul{
     display: flex;
@@ -39,7 +41,7 @@ width: 60%;
 
 .content{
     display: flex;
-    padding: 0 5%;
+    padding: 1% 5%;
 }
 
 .side{
@@ -52,19 +54,33 @@ width: 60%;
 .left_top{
     display: flex;
 }
+.left_down{
+    display: flex;
+    justify-content: center;
+    background-color: #EDBB99;
+}
 .left_down img{
     width: 100%;
+    max-width: 600px;
  
 }
 .part{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
+}
+.part:nth-child(even){
+    background-color: #FAE5D3;
+
 }
 footer{
     display: flex;
     width: 90%;
     justify-content: space-between;
     padding: 20px 5%;
+    background-color: #E59866;
+}
+.part p,ol{
+    width: 100%;
 }
