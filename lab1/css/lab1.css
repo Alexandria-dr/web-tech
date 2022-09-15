@@ -59,6 +59,7 @@ width: 60%;
 .part{
     padding: 10px;
     display: flex;
+    flex-direction: column;
     /* align-items: center; */
 }
 footer{
