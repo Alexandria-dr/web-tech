@@ -1,0 +1,112 @@
+table, h1, .menu{
+    display: inline;
+}
+body{
+    background-color: #FEF5E7;
+}
+header{
+    
+    padding: 0 10%;
+    background-color: #EDBB99;
+
+}
+
+header h1{
+    text-align: end;
+    width: 40%;
+    padding: 35px 0;
+}
+.menu {
+    width: 60%;
+    margin: 0;
+    margin-right: 30%;
+}
+header table td{
+    min-width: 80px;
+}
+
+
+ /* .menu>ul{
+    
+    margin: 0;
+    font-size: 1.3em;
+    padding: 5px;
+    width: 100%;
+    float: right;
+}
+.menu li{
+    margin: 0 20px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.menu li a:hover{
+    color: rgb(206, 13, 13);
+}  */
+
+
+.content{
+   
+    padding: 0 5%;
+}
+.maint{
+    display: block;
+    width: 100%;
+    padding: 5% 5%;
+}
+.maint tr{
+    width: 100%;
+}
+.maint td{
+    padding: 0 30px;
+}
+.maint td:nth-child(odd){
+background-color: #E59866;
+}
+.maint tr:nth-child(2){
+    background-color: #1ac491;
+    }
+.side{
+   
+    width: 50%;
+}
+.side.left{
+    
+}
+.left_top{
+    
+}
+.left_down{
+    
+    background-color: #EDBB99;
+}
+.left_down img{
+    width: 100%;
+    max-width: 600px;
+ 
+}
+.part{
+    padding: 10px;
+    
+}
+.part:nth-child(even){
+    background-color: #FAE5D3;
+
+}
+footer{
+   
+    width: 90%;
+    padding: 20px 5%;
+    background-color: #E59866;
+}
+footer h2,p{
+    display: inline;
+}
+footer p{
+    margin-left: 30%;
+}
+.part p,ol{
+    width: 100%;
+}
