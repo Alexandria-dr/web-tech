@@ -10,7 +10,6 @@
 </head>
 <body>
     <header>
-        <div class="menu">
                <table>
                     <tr>
     
@@ -24,43 +23,13 @@
                         <td><a href="#">три</a></td>
                     
                         <td><a href="#">чотири</a></td>
+                        <td class="empty"></td>
+                        <td><h1>Я люблю котів!</h1></td>
                     </tr>
                   </table> 
-               
         </div>
-        <h1>Я люблю котів!</h1>
+        
     </header>
-    <!-- <div class="content">
-        <div class="side left">
-            <div class="left_top">
-                <div class="part">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quis sunt, eius molestiae praesentium excepturi quasi facere rerum numquam hic qui veniam rem, exercitationem fugiat dolorum soluta! Iusto, totam? Velit!</p>
-                </div>
-                <div class="part">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatibus aut odit doloribus! Est, explicabo. Sit, eum dolores. Non voluptates sapiente deserunt, ipsa ipsam sit quis facere veniam inventore porro!</p>
-                    <map name="number">
-                        <area shape="rect" coords="30,30,120,120" href="./lab2_grid.html" alt="1">
-                        <area shape="rect" coords="180,30,270,120" href="./lab2_float.html" alt="2">
-                    </map>
-                    <img src="./img/map.png" alt="map" usemap="#number" width="300" height="150">
-                    
-                </div>
-            </div>
-            <div class="left_down">
-                <img src="./img/cat1.jpg" alt="cat!">
-            </div>
-        </div>
-        <div class="side right">
-            <div class="part">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore autem ducimus sequi laudantium sint nisi voluptatem exercitationem cum, laboriosam et. Quisquam iusto sequi, eius incidunt distinctio perspiciatis officiis corrupti aliquam?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore autem ducimus sequi laudantium sint nisi voluptatem exercitationem cum, laboriosam et. Quisquam iusto sequi, eius incidunt distinctio perspiciatis officiis corrupti aliquam?</p>
-            </div>
-            <div class="part">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ex cumque. Voluptatem vel a est animi, dolores culpa dolor voluptate cumque magnam nostrum magni possimus quasi aperiam, similique nisi dicta.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ex cumque. Voluptatem vel a est animi, dolores culpa dolor voluptate cumque magnam nostrum magni possimus quasi aperiam, similique nisi dicta.</p>
-            </div>
-        </div>
-    </div> -->
     <table class="maint">
         <tr>
             <td>
@@ -70,25 +39,32 @@
             <td>
                 <p>2 column</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quisquam odit amet? Quisquam recusandae dicta fugiat non vero consectetur at!</p></td>
-            <td>
+            <td rowspan="2">
                 <p>3 column</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto dolores aliquid error est at et labore porro aspernatur. Nesciunt, nostrum.</p>
             </td>
-            <td>
+            <td rowspan="2">
                 <p>4 column</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus placeat ea in corrupti eius tenetur doloribus fugiat vero? Vel.</p>
             </td>
         </tr>
-        <tr>
-            <td><p>1column 2row</p>
+        <tr >
+            <td colspan="2" class="img_td">
+                <p>1column 2row</p>
                 <div class="left_down">
                     <img src="./img/cat1.jpg" alt="cat!">
                 </div></td>
         </tr>
     </table>
     <footer>
-        <h2>Коти найкращі домашні тварини!</h2>
-        <p>Контактна інформація: <a href="https://t.me/Alexandria_dr">@Alexandria_dr</a></p>
+        <table class="bott">
+            <tr>
+                <td><h2>Коти найкращі домашні тварини!</h2></td>
+                <td class="empty"></td>
+
+                <td><p>Контактна інформація: <a href="https://t.me/Alexandria_dr">@Alexandria_dr</a></p></td>
+            </tr>
+        </table>        
     </footer>
 </body>
 </html>

@@ -1,102 +1,75 @@
-table, h1, .menu{
-    display: inline;
-}
 body{
     background-color: #FEF5E7;
 }
 header{
-    
-    padding: 0 10%;
+    padding: 2% 10%;
     background-color: #EDBB99;
-
 }
-
 header h1{
+    display: inline;
     text-align: end;
     width: 40%;
     padding: 35px 0;
 }
-.menu {
-    width: 60%;
-    margin: 0;
-    margin-right: 30%;
-}
 header table td{
     min-width: 80px;
+    text-align: center;
 }
-
-
- /* .menu>ul{
-    
-    margin: 0;
-    font-size: 1.3em;
-    padding: 5px;
+header table td:nth-child(7){
+    width: 40%;
+    text-align: end;
+}
+header table tr, tbody{
+    display: block;
     width: 100%;
-    float: right;
 }
-.menu li{
-    margin: 0 20px;
-    list-style: none;
+header table{
+    width: 100%;
 }
-.menu li a{
+.empty{
+    width: 30%;
+}
+header table td a{
     text-decoration: none;
     color: black;
+    font-size: 1.3em;
 }
-.menu li a:hover{
+header table td a:hover{
     color: rgb(206, 13, 13);
-}  */
+}
+ 
 
-
-.content{
-   
-    padding: 0 5%;
+.maint p{
+    display: inline-block;
 }
 .maint{
     display: block;
     width: 100%;
-    padding: 5% 5%;
+    padding: 0 5%;
 }
 .maint tr{
     width: 100%;
 }
 .maint td{
-    padding: 0 30px;
+    padding: 1% 2%;
+    width: 25%;
 }
 .maint td:nth-child(odd){
 background-color: #E59866;
 }
-.maint tr:nth-child(2){
-    background-color: #1ac491;
-    }
-.side{
-   
-    width: 50%;
-}
-.side.left{
-    
-}
-.left_top{
-    
-}
+
+
+.maint td.img_td{
+    background-color: #EDBB99;
+ }
 .left_down{
-    
     background-color: #EDBB99;
 }
 .left_down img{
     width: 100%;
     max-width: 600px;
- 
-}
-.part{
-    padding: 10px;
-    
-}
-.part:nth-child(even){
-    background-color: #FAE5D3;
-
 }
 footer{
-   
     width: 90%;
     padding: 20px 5%;
     background-color: #E59866;
@@ -104,9 +77,19 @@ footer{
 footer h2,p{
     display: inline;
 }
-footer p{
-    margin-left: 30%;
-}
-.part p,ol{
+footer table{
+    display: block;
     width: 100%;
+}
+
+footer table tr, tbody{
+    display: block;
+    width: 100%;
+}
+footer table td{
+    display: inline-block;
+    width: 33%;
+}
+footer table td{
+    text-align: end;
 }
