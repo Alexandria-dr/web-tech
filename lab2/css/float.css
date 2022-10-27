@@ -1,6 +1,4 @@
-body{
-    background-color: #FEF5E7;
-}
+
 header{
     padding: 2% 10%;
     background-color: #EDBB99;
@@ -43,7 +41,7 @@ header table td a:hover{
 .maint{
     display: block;
     width: 100%;
-    padding: 0 5%;
+    padding: 0;
 }
 .maint tr{
     width: 100%;
@@ -53,19 +51,35 @@ header table td a:hover{
     width: 25%;
 }
 .maint td:nth-child(odd){
-background-color: #E59866;
+background-color: #FEF5E7;
+}
+.maint td:nth-child(even){
+    background-color: #FAE5D3;
 }
 
-
+.maint td:nth-child(1){
+border-right: solid 20px white;
+}
+.maint td:nth-child(2){
+    border-right: solid 20px white;
+}
+.maint td:nth-child(4){
+    border-left: solid 20px white;
+}
 .maint td.img_td{
     background-color: #EDBB99;
+    max-height: 500px;
  }
 .left_down{
     background-color: #EDBB99;
+    max-width: 600px;
 }
 .left_down img{
     width: 100%;
-    max-width: 600px;
+    
+}
+.tr2{
+    line-height: 100px;
 }
 footer{
     width: 90%;

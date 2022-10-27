@@ -1,6 +1,6 @@
 
 body{
-    background-color: #FEF5E7;
+    /* background-color: #FEF5E7; */
 }
 header{
     display: flex;
@@ -41,7 +41,8 @@ width: 60%;
 
 .content{
     display: flex;
-    padding: 0 5%;
+    padding: 0;
+    width: 100%;
 }
 
 .side{
@@ -50,29 +51,48 @@ width: 60%;
 }
 .side.left{
     flex-direction: column;
+    justify-content: space-between;
 }
 .left_top{
     display: flex;
+    width: 100%;
+    flex: 1 1 auto;
 }
+.left_top .part{
+width: 50%;
+}
+.left_top .part:nth-child(1){
+    margin-right:40px ;
+}
+
 .left_down{
     display: flex;
     justify-content: center;
     background-color: #EDBB99;
+    min-height: 300px;
 }
 .left_down img{
     width: 100%;
     max-width: 600px;
- 
+    object-fit: contain;
+    
+}
+.right .part:nth-child(1){
+    margin: 0 40px;
 }
 .part{
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
 }
 .part:nth-child(even){
     background-color: #FAE5D3;
-
+    
+}
+.part:nth-child(odd){
+    background-color:#FEF5E7;
 }
 footer{
     display: flex;
@@ -80,6 +100,11 @@ footer{
     justify-content: space-between;
     padding: 20px 5%;
     background-color: #E59866;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .part p,ol{
     width: 100%;
