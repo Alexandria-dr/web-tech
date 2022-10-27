@@ -37,8 +37,6 @@ header table td a{
 header table td a:hover{
     color: rgb(206, 13, 13);
 }
- 
-
 .maint p{
     display: inline-block;
 }
