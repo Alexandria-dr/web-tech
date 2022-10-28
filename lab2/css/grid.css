@@ -36,7 +36,7 @@ header h1{
     padding: 0;
     display: grid;
     grid-template-columns: repeat(4,25%);
-    grid-template-rows: minmax(300px, 70%) minmax(300px, 30%);
+    grid-template-rows: max-content 300px;
     width: 100%;
 }
 .content *{
